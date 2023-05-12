@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Image from "./components/image";
 import Footer from "./components/footer";
+import MainOne from "./components/main-one";
 
 function Faith () {
     return (
@@ -12,6 +13,7 @@ function Faith () {
         <h2> We have Faith </h2>
             <Navbar />
             <Image />
+            <MainOne />
             <Footer />
         </>
     );
