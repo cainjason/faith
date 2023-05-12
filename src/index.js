@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Image from "./components/image";
+import Footer from "./components/footer";
 
 function Faith () {
     return (
         <>
-        <h1> We have Faith </h1>
+            <Header />
+        <h2> We have Faith </h2>
+            <Navbar />
+            <Image />
+            <Footer />
         </>
     );
 }
